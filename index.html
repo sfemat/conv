@@ -9,34 +9,33 @@
 	<body>
 		<div>
 			<form method="get">
-				<input type="text" id="primo">
-				<input type="text" id="secondo">
+				<input type="text" id="eurotto">
 				</br>
-				<input type="text" id="terzo">
-				<input type="text" id="quarto">
+				<input type="text" id="dollarobot">
 				</br>
-				<input type="text" id="quinto">
-				<input type="text" id="sesto">
+				<input type="text" id="vela moneta">
+				
 				</br>
-				<input type="text" id="settimo">
-				<input type="text" id="ottavo">
-				</br>
-				<input type="text" id="nono">
-				<input type="text" id="decimo">
-				</br>
-				<input type="text" id="undicesimo">
-				<input type="text" id="dodicesimo">
-				</br>
+				<button onclick="bebeb(document.getElementById("eurotto"););bebeb(document.getElementById("dollarobot"););bebeb(document.getElementById("vela moneta"););"></button>
+				
+				
 			
 		</div>
-		<script>
-		 int n1;
-		 int n2;
-		 switch
-		 if(window.location.href.indexOf("franky") > -1) {
-       alert("your url contains the name franky");
-	   secondo=
-    }
+		<script type="text/javascript">
+		int n1;
+		int n2;
+		function bebeb(var k) {
+			var x = document.getElementById("eurotto");
+			var text = 0;
+			var i;
+			for (i = 0; i < x.length ;i++) {
+				text += x.elements[i].value + "<br>";
+			}
+			
+		document.getElementById("demo").innerHTML = text;
+		}
+		 
+	
 		</script>
 		
 	</body>
